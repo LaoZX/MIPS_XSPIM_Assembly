@@ -3,5 +3,3 @@ In this exercise, we will set up a program that performs unsigned multiplication
 Since 1 bit left shift is equivalent to doubling, it can be easily realized by adding instruction. However, it is difficult to realize 1 bit right shift with other instructions. Therefore, this time, multiplication is realized by changing the algorithm listed in the textbook "First version of multiplication algorithm and hardware" as an algorithm that uses only left shift.
 
 The register of multiplicand and product is 32 bits, and ALU operation can be done with 32 bits. The multiplication result to be obtained is not 64 bits, it may be only the lower 32 bits.
-
-https://web-int.u-aizu.ac.jp/~benab/classes/ca/ex/comparch/images/mult_chart.gif
